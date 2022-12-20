@@ -14,34 +14,44 @@
         <div class="sidebar">
             <nav>
                 <ul>
-                    <li><a href = "/">Home</a></li>
-                    <li><a href = "/intro.html">About Me</a></li>
-                    <li><a href = "/services.html">Services</a></li>
-                    <li><a href = "/certificate.html">Certificates</a></li>
-                    <li><a href = "/contact.html">Contact Me</a></li>
+                    <li><a href="">Home</a></li>
+                    <li><a href="intro.html">About Me</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="certificate.html">Certificates</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
                 </ul>
             </nav>
         </div>
         <div class="main">
-            <div class="infoContainer">
-                <div class="Info">
-                    <div class="Hello">Hi I am</div>
-                    <div class="Name">Mahnoor Munir</div>
-                    <div class="About">Developer, Community Builder, Software Engineering Student</div>
-                    <div class="more">I love to explore diffferent technologies and always tries to lean different
-                        skills.</div>
-                    <div class="buttons">
-                        <button>Download CV</button>
-                        <button>Contact Me</button>
+            <div class="contactform">
+                <h1>Contact me for Work/Inquiry</h1>
+                <form>
+                    <div class="mb-3">
+                        <label for="clientName" class="form-label">Name</label>
+                        <input type="name" class="form-control" id="clientName" aria-describedby="emailHelp">
                     </div>
-                </div>
-                <div class="Pic">
-                    <img src="C:\Users\Mahnoor\Downloads\Mahnoor_BLack-removebg-preview.png" alt="Mahnoor Munir">
-                </div>
+                    <div class="mb-3">
+                        <label for="clientEmail" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="clientEmail" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="clientphone" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="clientphone">
+                    </div>
+                    <div class="mb-3">
+                        <label for="clientName" class="form-label">Enquiry</label>
+                        <input type="name" class="form-control" id="clientName" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3" id = "form-check">
+                        <input type="checkbox" class="form-check-input" id="isclient">
+                        <label class="form-check-label" for="isclient">I want you to work on prpject with me</label>
+                    </div>
+                    <button type="submit" class="btn btn-sm">Submit</button>
+                </form>
 
             </div>
         </div>
-    </div>
 </body>
 
 </html>

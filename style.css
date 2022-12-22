@@ -8,9 +8,10 @@
 
 .sidebar {
     background-color: rgb(221, 214, 214);
-    width: 250px;
     font-family: 'Fira Sans', sans-serif;
     height: 100vh;
+    transition: transform 0.3s ease-in;
+    position: absolute;
 }
 
 .sidebar nav {
@@ -30,7 +31,7 @@
 
 .main {
     background-color: white;
-
+    padding: 23px;
     width: 85vw;
 }
 
@@ -45,6 +46,7 @@
     margin: 105px auto;
     display: flex;
     justify-content: space-around;
+
 }
 
 .Info {
@@ -110,10 +112,9 @@
 }
 
 .contactform {
-    padding: 0 34px;
-    padding-top: 40px;
-    font-family: 'Fira Sans', sans-serif;
 
+    font-family: 'Fira Sans', sans-serif;
+    margin: 30px 80px;
 }
 
 .contactform h1 {
@@ -161,8 +162,7 @@ p {
 }
 
 .intro {
-    margin-top: 20px;
-    margin-left: 40px;
+    margin: 30px 80px;
 }
 
 
@@ -224,43 +224,68 @@ p {
     height: 7px;
     background-color: rgb(52, 85, 82);
 }
-.design
-{
-    margin-top: 20px;
-    margin-left: 40px;
+
+.design {
+    margin: 30px 80px;
 }
+
 .desgn {
-    
-    margin-bottom: 18px;
+
+    margin-left: 30px;
+    margin-bottom: 20px;
 }
 
 .desgn li {
     font-family: 'Fira Sans', sans-serif;
-    font-weight: bold;
-    font-size: 17px;
+
+    font-size: 19px;
 }
 
 .desgn h5 {
     font-family: 'Source Code Pro', monospace;
-    font-size: 15px;
+    font-size: 16px;
     color: rgb(10, 10, 240);
     font-weight: bold;
 }
 
 .projects {
-    
+
     margin-bottom: 10px;
 
 }
-.projects li
-{
+
+.projects li {
     font-family: 'Fira Sans', sans-serif;
     font-weight: bold;
     font-size: 17px;
 }
+
 .projects h5 {
     font-family: 'Source Code Pro', monospace;
     font-size: 15px;
     color: rgb(10, 10, 240);
     font-weight: bold;
+}
+
+.sidebargo {
+    transform: translate(-250px, 0px);
+    position: absolute;
+}
+
+.hamberger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross {
+    margin-left: 180px;
+
+}
+
+@media (max-width: 1365px) {
+    .Pic {
+        display: none;
+    }
 }

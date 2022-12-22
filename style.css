@@ -97,8 +97,7 @@
     border-color: black;
 }
 
-.btn-sm
-{
+.btn-sm {
     font-size: 16px;
     margin: 12px 0;
     padding: 10px 19px;
@@ -112,14 +111,15 @@
 
 .contactform {
     padding: 0 34px;
-    padding-top: 100px;
+    padding-top: 40px;
     font-family: 'Fira Sans', sans-serif;
 
 }
 
 .contactform h1 {
     font-family: 'Source Code Pro', monospace;
-    padding: 12px 0;
+    font-weight: bold;
+    padding: 5px 0;
 }
 
 .contactform form div {
@@ -142,12 +142,125 @@
     padding: 3px 0 0 0;
 }
 
-#form-check
-{
+#form-check {
     flex-direction: row;
 }
 
-#form-check input{
+#form-check input {
     width: 20px;
     margin: 3px 0;
+}
+
+h1 {
+    font-family: 'Fira Sans', sans-serif;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.intro {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+
+.intro h2 {
+    font-family: 'Fira Sans', sans-serif;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-family: 'Source Code Pro', monospace;
+    margin-bottom: 20px;
+}
+
+.skillcontainer {
+    margin-left: 20px;
+}
+
+.skillItem {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    color: blue;
+    margin-bottom: 12px;
+}
+
+.skill {
+    width: 30%;
+    height: 7px;
+    background-color: rgb(216, 207, 207);
+    border: 2px solid rgb(44, 43, 43);
+}
+
+/* Container for skill bars */
+.c {
+    width: 90%;
+    height: 7px;
+    background-color: rgb(52, 85, 82);
+}
+
+.py {
+    width: 80%;
+    height: 7px;
+    background-color: rgb(52, 85, 82);
+}
+
+.java {
+    width: 65%;
+    height: 7px;
+    background-color: rgb(52, 85, 82);
+}
+
+.html {
+    width: 60%;
+    height: 7px;
+    background-color: rgb(52, 85, 82);
+}
+
+.css {
+    width: 40%;
+    height: 7px;
+    background-color: rgb(52, 85, 82);
+}
+.design
+{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.desgn {
+    
+    margin-bottom: 18px;
+}
+
+.desgn li {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.desgn h5 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    color: rgb(10, 10, 240);
+    font-weight: bold;
+}
+
+.projects {
+    
+    margin-bottom: 10px;
+
+}
+.projects li
+{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+.projects h5 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    color: rgb(10, 10, 240);
+    font-weight: bold;
 }

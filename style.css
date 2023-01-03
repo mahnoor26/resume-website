@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
 
 * {
-    overflow-x: hidden;
+
     margin: 0;
     padding: 0;
 }
 
 .sidebar {
-    background-color: rgb(221, 214, 214);
+    background-color: #e9eead;
     font-family: 'Fira Sans', sans-serif;
     height: 100vh;
     transition: transform 0.3s ease-in;
@@ -34,34 +34,18 @@
     background-color: rgb(145, 194, 243);
     padding: 23px;
     width: 100vw;
-}
-
-.container {
-  
-    height: 100vh !important;
-}
-
-.infoContainer {
-
-    height: 62vh;
-    width: 73vw;
-    margin: 105px auto;
-    display: flex;
-    justify-content: space-around;
-
-}
-
-.Info {
-    padding: 40px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    font-family: 'Source Code Pro', monospace;
     color: #021933;
 }
 
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+
+
 .Pic img {
-    overflow: hidden;
+
     padding-right: 55px;
     height: 62vh;
 }
@@ -71,7 +55,7 @@
 }
 
 .Name {
-    font-size: 33px;
+    font-size: 38px;
     font-weight: bold;
     font-family: 'Fira Sans', sans-serif;
 }
@@ -94,7 +78,7 @@
     padding: 8px 13px;
     border-radius: 25px;
     color: #021933;
-    background-color: #dde584;
+    background-color: #e5ee81;
     font-weight: bold;
     font-size: 18px;
     margin: 0 3px;
@@ -114,8 +98,129 @@
     border-color: black;
 }
 
-.contactform {
+.infoContainer {
 
+    height: 62vh;
+    width: 73vw;
+    margin: 105px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.Info {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    color: #021933;
+}
+
+.box1 {
+
+    margin: auto;
+    margin-top: 45px;
+    background-color: #072a53;
+    box-sizing: border-box;
+    border-radius: 35px;
+    text-align: center;
+    border: 3px solid #e5ee81;
+    padding: 5px;
+    width: 1100px;
+    
+}
+
+.intro {
+    margin: 30px 80px;
+}
+
+.intro h2 {
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: #e5ee81;
+}
+
+.intro p {
+    font-family: 'Source Code Pro', monospace;
+    margin-bottom: 15px;
+    color: #dbe736;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box2 {
+    display: flex;
+    margin-top: 75px;
+    background-color: #072a53;
+    box-sizing: border-box;
+    border-radius: 35px;
+    border: 3px solid #e5ee81;
+    padding: 15px;
+    width: 370px;
+}
+
+.skillcontainer {
+    font-family: 'Source Code Pro', monospace;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 65px;
+    color: #000;
+}
+
+li {
+    color: #dbe736;
+}
+
+h5 {
+    margin-bottom: 5px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 17px;
+    color: #bbb8e0;
+    margin-bottom: 20px;
+}
+
+.box3 {
+    display: flex;
+    margin-top: 75px;
+    background-color: #072a53;
+    box-sizing: border-box;
+    border-radius: 35px;
+    border: 3px solid #e5ee81;
+    padding: 15px;
+    
+    width: 650px;
+}
+
+.projects {
+    margin-top: 13px;
+    margin-bottom: 15px;
+    margin-left: 55px;
+}
+
+.projects li {
+    font-family: 'Fira Sans', sans-serif;
+    
+    font-size: 19px;
+    color: #dbe736;
+}
+
+.projects h5 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 14px;
+    margin-left: 25px;
+    font-style: italic;
+    color: #bbb8e0;
+    font-weight: bold;
+}
+
+.contactform {
     font-family: 'Fira Sans', sans-serif;
     margin: 30px 80px;
 }
@@ -155,119 +260,65 @@
     margin: 3px 0;
 }
 
-h1 {
+.vol{
+    text-align: center;
+}
+.vol h1 {
     font-family: 'Fira Sans', sans-serif;
-    margin-bottom: 20px;
+    color: #042e5e;
+    font-size: 35px;
+    font-style: bold;
+    margin-top: 30px;
 }
 
 p {
     font-family: 'Source Code Pro', monospace;
 }
-
-.intro {
-    margin: 30px 80px;
+.box4
+{
+    margin: auto;
+    margin-top: 20px;
+    width: 1100px;
 }
-
-
-.intro h2 {
-    font-family: 'Fira Sans', sans-serif;
-    margin-bottom: 10px;
-}
-
-.intro p {
-    font-family: 'Source Code Pro', monospace;
-    margin-bottom: 20px;
-}
-
-.skillcontainer {
-    margin-left: 20px;
-}
-
-.skillItem {
-    font-family: 'Source Code Pro', monospace;
-    font-weight: bold;
-    color: blue;
-    margin-bottom: 15px;
-}
-
-.skill {
-    width: 30%;
-    height: 7px;
-    background-color: rgb(216, 207, 207);
-    border: 2px solid rgb(44, 43, 43);
-}
-
-/* Container for skill bars */
-.c {
-    width: 90%;
-    height: 7px;
-    background-color: rgb(52, 85, 82);
-}
-
-.py {
-    width: 80%;
-    height: 7px;
-    background-color: rgb(52, 85, 82);
-}
-
-.java {
-    width: 65%;
-    height: 7px;
-    background-color: rgb(52, 85, 82);
-}
-
-.html {
-    width: 60%;
-    height: 7px;
-    background-color: rgb(52, 85, 82);
-}
-
-.css {
-    width: 40%;
-    height: 7px;
-    background-color: rgb(52, 85, 82);
+.desPanel
+{
+    display: flex;
 }
 
 .design {
-    margin: 30px 80px;
+    padding: 20px;
+    width: 33.3%;
+    box-sizing: border-box;
+    
 }
 
-.desgn {
-
-    margin-left: 30px;
-    margin-bottom: 20px;
+.desbox
+{
+    background-color: #072a53;
+    box-sizing: border-box;
+    border-radius: 35px;
+    padding: 25px;
+    border: 2px solid #e5ee81;
+    height: 120px;
+    
 }
 
-.desgn li {
-    font-family: 'Fira Sans', sans-serif;
-
-    font-size: 19px;
-}
-
-.desgn h5 {
+.desbox h4 {
     font-family: 'Source Code Pro', monospace;
     font-size: 16px;
-    color: rgb(10, 10, 240);
+    color: #dbe736;
     font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
 }
 
-.projects {
-    margin-top: 15px;
-    margin-bottom: 15px;
-
-}
-
-.projects li {
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: bold;
-    font-size: 17px;
-}
-
-.projects h5 {
+.desbox h5 {
     font-family: 'Source Code Pro', monospace;
-    font-size: 15px;
-    color: rgb(10, 10, 240);
+    font-size: 16px;
+    color: #bbb8e0;
     font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
 }
 
 .sidebargo {
@@ -284,7 +335,6 @@ p {
 
 .cross {
     margin-left: 180px;
-
 }
 
 @media (max-width: 1365px) {

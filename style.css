@@ -31,10 +31,12 @@
 }
 
 .main {
+
     background-color: rgb(145, 194, 243);
     padding: 23px;
     width: 100vw;
     color: #021933;
+
 }
 
 .container {
@@ -52,21 +54,26 @@
 
 .Hello {
     font-size: 30px;
+    font-weight: bold;
 }
 
 .Name {
-    font-size: 38px;
+    font-size: 45px;
     font-weight: bold;
     font-family: 'Fira Sans', sans-serif;
+    margin-top: 3px;
 }
 
 .About {
-    font-size: 20px;
+    font-size: 19px;
+    font-weight: bold;
+    color: #517203;
+    margin-top: 3px;
 }
 
 .more {
     margin-top: 20px;
-    font-size: 17px;
+    font-size: 19px;
     font-family: 'Fira Sans', sans-serif;
 }
 
@@ -75,7 +82,7 @@
 }
 
 .btn {
-    padding: 8px 13px;
+    padding: 8px 23px;
     border-radius: 25px;
     color: #021933;
     background-color: #e5ee81;
@@ -128,7 +135,7 @@
     border: 3px solid #e5ee81;
     padding: 5px;
     width: 1100px;
-    
+
 }
 
 .intro {
@@ -194,7 +201,7 @@ h5 {
     border-radius: 35px;
     border: 3px solid #e5ee81;
     padding: 15px;
-    
+
     width: 650px;
 }
 
@@ -206,7 +213,7 @@ h5 {
 
 .projects li {
     font-family: 'Fira Sans', sans-serif;
-    
+
     font-size: 19px;
     color: #dbe736;
 }
@@ -220,49 +227,12 @@ h5 {
     font-weight: bold;
 }
 
-.contactform {
-    font-family: 'Fira Sans', sans-serif;
-    margin: 30px 80px;
-}
 
-.contactform h1 {
-    font-family: 'Source Code Pro', monospace;
-    font-weight: bold;
-    padding: 5px 0;
-}
-
-.contactform form div {
-    padding: 10px 0;
-    display: flex;
-    flex-direction: column;
-}
-
-.contactform form div input {
-    padding: 3px;
-    border-radius: 5px;
-    width: 23vw;
-    margin: 6px 0 0 0;
-}
-
-#emailHelp {
-    font-size: 10px;
-    color: midnightblue;
-    margin: 0 5px;
-    padding: 3px 0 0 0;
-}
-
-#form-check {
-    flex-direction: row;
-}
-
-#form-check input {
-    width: 20px;
-    margin: 3px 0;
-}
-
-.vol{
+.vol {
     text-align: center;
+
 }
+
 .vol h1 {
     font-family: 'Fira Sans', sans-serif;
     color: #042e5e;
@@ -274,33 +244,37 @@ h5 {
 p {
     font-family: 'Source Code Pro', monospace;
 }
-.box4
-{
+
+.box4 {
     margin: auto;
     margin-top: 20px;
     width: 1100px;
+    transition: transform 2s ease-in;
+
 }
-.desPanel
-{
+
+.desPanel {
     display: flex;
+
 }
 
 .design {
     padding: 20px;
     width: 33.3%;
     box-sizing: border-box;
-    
+
 }
 
-.desbox
-{
+.desbox {
+
     background-color: #072a53;
     box-sizing: border-box;
     border-radius: 35px;
     padding: 25px;
     border: 2px solid #e5ee81;
     height: 120px;
-    
+
+
 }
 
 .desbox h4 {
@@ -321,10 +295,121 @@ p {
     text-align: center;
 }
 
+.box5 {
+    margin: auto;
+    margin-top: 20px;
+    width: 1200px;
+    transition: transform 2s ease-in;
+
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+}
+
+.serv {
+    padding: 20px;
+    width: 40%;
+    box-sizing: border-box;
+
+}
+
+.servbox {}
+
+.servicon {
+    position: absolute;
+    cursor: pointer;
+    padding: 17px 5px;
+}
+
+.servcon {
+    padding: 15px;
+    padding-left: 90px;
+}
+
+.servcon h4 {
+    font-family: 'Fira Sans', sans-serif;
+    color: #042e5e;
+    font-size: 25px;
+    font-style: bold;
+
+}
+
+.servcon p {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 14px;
+    color: #517203;
+    text-align: justify;
+    margin-top: 10px;
+}
+
 .sidebargo {
     transform: translate(-250px, 0px);
     position: absolute;
 }
+
+.box6 {
+    
+    margin: auto;
+    margin-top: 30px;
+    background-color: #072a53;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 2px solid #e9f0a4;
+    width: 400px;
+}
+.conbox6 
+{
+    padding: 0 5px;
+    margin: auto;
+}
+.conbox6 h1 {
+    margin-top: 30px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 30px;
+    color: #e5ee81;
+    text-align: center;
+}
+
+.contactform {
+    margin: auto;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 20px 35px;
+    color: #dbe736;
+}
+
+.contactform form div {
+    padding: 12px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+
+    border-radius: 4px;
+    width: 23vw;
+    height: 3vh;
+    margin: 5px 0px;
+    border-color: #e5ee81;
+}
+
+#emailHelp {
+    font-size: 10px;
+    color: #dbe736;
+    padding: 6px 3px;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 20px;
+    height: 2vh;
+    margin: 3px 2px;
+}
+
 
 .hamberger {
     position: absolute;
@@ -345,6 +430,7 @@ p {
     .intro,
     .design,
     .contactform {
-        margin: 50px 8px;
+        margin: auto;
+        
     }
 }
